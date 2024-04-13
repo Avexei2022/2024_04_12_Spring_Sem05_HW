@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Spring_JPA_Sem05_HW
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_sem_05
+    username: student
+    password: student
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      jdbc:
+        lob:
+          non_contextual_creation: true
+      ddl-auto: update
+    show-sql: true
