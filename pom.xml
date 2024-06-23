@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.gb</groupId>
-	<artifactId>Spring_JPA_Sem05_HW</artifactId>
+	<artifactId>MyTasks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring_JPA_Sem05_HW</name>
 	<description>Homework for Seminar 05</description>

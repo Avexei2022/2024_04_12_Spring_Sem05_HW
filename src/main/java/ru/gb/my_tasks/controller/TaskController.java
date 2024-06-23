@@ -1,4 +1,4 @@
-package ru.gb.Spring_JPA_Sem05_HW.controller;
+package ru.gb.my_tasks.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
@@ -7,14 +7,13 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import ru.gb.Spring_JPA_Sem05_HW.model.Task;
-import ru.gb.Spring_JPA_Sem05_HW.model.TaskStatus;
-import ru.gb.Spring_JPA_Sem05_HW.service.TaskService;
+import ru.gb.my_tasks.model.Task;
+import ru.gb.my_tasks.model.TaskStatus;
+import ru.gb.my_tasks.service.TaskService;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-
 
 /**
  * Контроллер
@@ -46,7 +45,7 @@ public class TaskController {
             statusTitle = taskStatus.getValue();
             tasks = taskService.getTasksByStatus(taskStatus);
         }
-        log.info("Колисечтво задач, полученных из базы данных: " + tasks.size());
+        log.info("Количество задач, полученных из базы данных: " + tasks.size());
         model.addAttribute("tasks", tasks);
         model.addAttribute("status_title", statusTitle);
         log.info("Переход к /tasks-list");

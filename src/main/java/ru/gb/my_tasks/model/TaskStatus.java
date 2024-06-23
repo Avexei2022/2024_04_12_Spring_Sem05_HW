@@ -1,4 +1,4 @@
-package ru.gb.Spring_JPA_Sem05_HW.model;
+package ru.gb.my_tasks.model;
 
 
 import lombok.Getter;

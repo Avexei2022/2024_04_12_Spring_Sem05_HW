@@ -1,9 +1,9 @@
-package ru.gb.Spring_JPA_Sem05_HW.repository;
+package ru.gb.my_tasks.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import ru.gb.Spring_JPA_Sem05_HW.model.Task;
-import ru.gb.Spring_JPA_Sem05_HW.model.TaskStatus;
+import ru.gb.my_tasks.model.Task;
+import ru.gb.my_tasks.model.TaskStatus;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package ru.gb.Spring_JPA_Sem05_HW.service;
+package ru.gb.my_tasks.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.gb.Spring_JPA_Sem05_HW.model.Task;
-import ru.gb.Spring_JPA_Sem05_HW.model.TaskStatus;
-import ru.gb.Spring_JPA_Sem05_HW.repository.TaskRepository;
+import ru.gb.my_tasks.model.Task;
+import ru.gb.my_tasks.model.TaskStatus;
+import ru.gb.my_tasks.repository.TaskRepository;
 
 import java.util.List;
 
