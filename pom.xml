@@ -11,8 +11,8 @@
 	<groupId>ru.gb</groupId>
 	<artifactId>MyTasks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring_JPA_Sem05_HW</name>
-	<description>Homework for Seminar 05</description>
+	<name>Spring_JPA</name>
+	<description>Spring_JPA</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
