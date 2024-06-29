@@ -1,6 +1,14 @@
 # Фреймворк Spring  
 ## Spring Data  
 ### MyTasks  
+Стек: 
+spring-boot-starter-data-jpa  
+spring-boot-starter-thymeleaf  
+spring-boot-starter-web  
+postgresql  
+lombok  
+
+
 Веб-приложение на Spring Boot и Spring Data JPA, которое представляет собой сервис для управления списком задач.  
 
 Создан репозиторий задач.
